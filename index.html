@@ -3,40 +3,44 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Sick Blog | Home</title>
+    <title>Void Pulse | Home</title>
     <link rel="stylesheet" href="css/styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700&family=Roboto+Mono:wght@400;600&display=swap" rel="stylesheet">
+    <link rel="icon" href="assets/favicon.ico">
 </head>
 <body>
     <header class="header">
         <nav class="nav">
-            <h1 class="logo">Sick Blog</h1>
+            <h1 class="logo">Void Pulse</h1>
             <ul class="nav-links">
                 <li><a href="index.html" class="active">Home</a></li>
                 <li><a href="about.html">About</a></li>
             </ul>
+            <div class="nav-toggle">☰</div>
         </nav>
     </header>
 
     <main class="main">
         <section class="hero">
-            <h2 class="hero-title">Welcome to the Dark Side</h2>
-            <p class="hero-subtitle">A blog that's sleek, modern, and unapologetically bold.</p>
+            <h2 class="hero-title">Enter the Void</h2>
+            <p class="hero-subtitle">A blog where ideas collide with a futuristic edge.</p>
+            <a href="#posts" class="hero-cta">Explore Now</a>
         </section>
 
-        <section class="posts">
-            <h3 class="section-title">Latest Posts</h3>
+        <section class="posts" id="posts">
+            <h3 class="section-title">Pulse Feed</h3>
             <div class="post-grid">
                 <article class="post-card">
-                    <img src="assets/placeholder.jpg" alt="Post Image" class="post-image">
-                    <h4 class="post-title">Epic Post Title</h4>
-                    <p class="post-excerpt">This is a short excerpt of the blog post to entice readers...</p>
-                    <a href="post.html" class="post-link">Read More</a>
+                    <img src="assets/placeholder.jpg" alt="Post Image" class="post-image" data-src="assets/placeholder.jpg">
+                    <h4 class="post-title">Cosmic Drift</h4>
+                    <p class="post-excerpt">A journey through the unknown, where stars tell stories...</p>
+                    <a href="post.html" class="post-link">Dive In</a>
                 </article>
                 <article class="post-card">
-                    <img src="assets/placeholder.jpg" alt="Post Image" class="post-image">
-                    <h4 class="post-title">Another Sick Post</h4>
-                    <p class="post-excerpt">Dive into this awesome content that you can't resist...</p>
-                    <a href="post.html" class="post-link">Read More</a>
+                    <img src="assets/placeholder.jpg" alt="Post Image" class="post-image" data-src="assets/placeholder.jpg">
+                    <h4 class="post-title">Neon Abyss</h4>
+                    <p class="post-excerpt">Exploring the depths of a digital frontier...</p>
+                    <a href="post.html" class="post-link">Dive In</a>
                 </article>
                 <!-- Add more post cards as needed -->
             </div>
@@ -44,7 +48,7 @@
     </main>
 
     <footer class="footer">
-        <p>&copy; 2025 Sick Blog. All rights reserved.</p>
+        <p>© 2025 Void Pulse. Crafted in the Abyss.</p>
     </footer>
 
     <script src="js/scripts.js"></script>
