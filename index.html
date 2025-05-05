@@ -1,19 +1,32 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-  <title>My First Website</title>
-  <style>
-    body {
-      background-color: #111;
-      color: #fff;
-      font-family: sans-serif;
-      text-align: center;
-      padding-top: 100px;
-    }
-  </style>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Your Awesome Website</title>
+  <link rel="stylesheet" href="styles.css"> <!-- External CSS file -->
 </head>
 <body>
-  <h1>Hello World from Kali Linux!</h1>
-  <p>This is a public website hosted with GitHub Pages.</p>
+  <div class="container">
+    <header>
+      <h1>Welcome to Your Awesome Website</h1>
+    </header>
+    
+    <main>
+      <section class="search-section">
+        <h2>Search for Something</h2>
+        <form id="search-form">
+          <input type="text" id="search-input" placeholder="Enter your search..." required>
+          <button type="submit">Search</button>
+        </form>
+      </section>
+    </main>
+    
+    <footer>
+      <p>&copy; 2025 Your Website</p>
+    </footer>
+  </div>
+  
+  <script src="script.js"></script> <!-- External JavaScript file -->
 </body>
 </html>
