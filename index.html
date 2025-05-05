@@ -1,32 +1,52 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Your Awesome Website</title>
-  <link rel="stylesheet" href="styles.css"> <!-- External CSS file -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sick Blog | Home</title>
+    <link rel="stylesheet" href="css/styles.css">
 </head>
 <body>
-  <div class="container">
-    <header>
-      <h1>Welcome to Your Awesome Website</h1>
+    <header class="header">
+        <nav class="nav">
+            <h1 class="logo">Sick Blog</h1>
+            <ul class="nav-links">
+                <li><a href="index.html" class="active">Home</a></li>
+                <li><a href="about.html">About</a></li>
+            </ul>
+        </nav>
     </header>
-    
-    <main>
-      <section class="search-section">
-        <h2>Search for Something</h2>
-        <form id="search-form">
-          <input type="text" id="search-input" placeholder="Enter your search..." required>
-          <button type="submit">Search</button>
-        </form>
-      </section>
+
+    <main class="main">
+        <section class="hero">
+            <h2 class="hero-title">Welcome to the Dark Side</h2>
+            <p class="hero-subtitle">A blog that's sleek, modern, and unapologetically bold.</p>
+        </section>
+
+        <section class="posts">
+            <h3 class="section-title">Latest Posts</h3>
+            <div class="post-grid">
+                <article class="post-card">
+                    <img src="assets/placeholder.jpg" alt="Post Image" class="post-image">
+                    <h4 class="post-title">Epic Post Title</h4>
+                    <p class="post-excerpt">This is a short excerpt of the blog post to entice readers...</p>
+                    <a href="post.html" class="post-link">Read More</a>
+                </article>
+                <article class="post-card">
+                    <img src="assets/placeholder.jpg" alt="Post Image" class="post-image">
+                    <h4 class="post-title">Another Sick Post</h4>
+                    <p class="post-excerpt">Dive into this awesome content that you can't resist...</p>
+                    <a href="post.html" class="post-link">Read More</a>
+                </article>
+                <!-- Add more post cards as needed -->
+            </div>
+        </section>
     </main>
-    
-    <footer>
-      <p>&copy; 2025 Your Website</p>
+
+    <footer class="footer">
+        <p>&copy; 2025 Sick Blog. All rights reserved.</p>
     </footer>
-  </div>
-  
-  <script src="script.js"></script> <!-- External JavaScript file -->
+
+    <script src="js/scripts.js"></script>
 </body>
 </html>
